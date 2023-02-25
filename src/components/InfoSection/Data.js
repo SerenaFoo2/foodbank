@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Food Bank",
+  headline: "Join our community of support",
+  description: "Sign up for our food bank and get the assistance you need.",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg").default,
+  alt: "food1",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Support",
+  headline: "Why does hunger still exist?",
+  description:
+    "In a food paradise, thousands of households still go to bed hungry. The situation has been further exacerbated during the pandemic and staggering inflation on the cost of living.",
+  buttonLabel: "How can I support?",
+  imgStart: true,
+  img: require("../../images/svg-2.svg").default,
+  alt: "food2",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Feedback",
+  headline: "Contact us",
+  description: "We would love to hear your thoughts!",
+  buttonLabel: "Form",
+  imgStart: false,
+  img: require("../../images/svg-3.svg").default,
+  alt: "food1",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
